@@ -1,0 +1,14 @@
+1-suprimer gradle-wrapper.jar
+2-dans gradele waarper coller distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-all.zip
+3-installer sdk et ajouter cdmtools dans le dossier latest puis accepter les licences 
+4-ext.kotlin_version = '1.5.10' le compatible kotlin 
+
+cliquer R pour reload apllication
+cliquer S pour prendre une screen shoot de l'application
+/*
+final List? list;
+  final int? index;
+  AddEditPage({this.list,this.index});
+widget.list![widget.index!]['fistname'];
+il vaut ajouter ? pour etre pas required et ! pour etre pas null dans class dart
+*/
