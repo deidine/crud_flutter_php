@@ -12,3 +12,6 @@ final List? list;
 widget.list![widget.index!]['fistname'];
 il vaut ajouter ? pour etre pas required et ! pour etre pas null dans class dart
 */
+?? is for cheking if exp is not null return value else return  defualt value exemple 
+String name='deidine';
+if name ?? "cheigeur"; will return deidine because name is not null other ways it will return cheigeur if name is null 
