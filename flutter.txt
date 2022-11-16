@@ -15,3 +15,7 @@ il vaut ajouter ? pour etre pas required et ! pour etre pas null dans class dart
 ?? is for cheking if exp is not null return value else return  defualt value exemple 
 String name='deidine';
 if name ?? "cheigeur"; will return deidine because name is not null other ways it will return cheigeur if name is null 
+#pour adb connect mon telephone sans fill  https://developer.android.com/studio/command-line/adb
+adb tcpip 5555
+adb connect device_ip_address:5555
+adb devices
