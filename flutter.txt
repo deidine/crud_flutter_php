@@ -19,3 +19,4 @@ if name ?? "cheigeur"; will return deidine because name is not null other ways i
 adb tcpip 5555
 adb connect device_ip_address:5555
 adb devices
+adb kill-server #pour stoper le connection
