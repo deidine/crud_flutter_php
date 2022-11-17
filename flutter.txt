@@ -1,3 +1,6 @@
+flutter run --no-sound-null-safety 
+flutter create app
+/*
 1-suprimer gradle-wrapper.jar
 2-dans gradele waarper coller distributionUrl=https\://services.gradle.org/distributions/gradle-7.2-all.zip
 3-installer sdk et ajouter cdmtools dans le dossier latest puis accepter les licences 
@@ -5,6 +8,7 @@
 
 cliquer R pour reload apllication
 cliquer S pour prendre une screen shoot de l'application
+*/
 /*
 final List? list;
   final int? index;
@@ -12,11 +16,15 @@ final List? list;
 widget.list![widget.index!]['fistname'];
 il vaut ajouter ? pour etre pas required et ! pour etre pas null dans class dart
 */
+/*
 ?? is for cheking if exp is not null return value else return  defualt value exemple 
 String name='deidine';
 if name ?? "cheigeur"; will return deidine because name is not null other ways it will return cheigeur if name is null 
+*/
+/*
 #pour adb connect mon telephone sans fill  https://developer.android.com/studio/command-line/adb
 adb tcpip 5555
 adb connect device_ip_address:5555
 adb devices
 adb kill-server #pour stoper le connection
+*/
